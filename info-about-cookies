@@ -5,7 +5,9 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <title>cookies info</title>
 <style>
-  
+  body {
+    background-color: yellow;
+  }
 </style>
   </head>
   <body>
