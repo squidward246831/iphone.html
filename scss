@@ -1,0 +1,45 @@
+h1 {
+  color: blue; text-align: center;
+
+}
+h2 {
+  color: blue; text-align: center;
+}
+
+table {
+  border: 2px dotted black; text-align: center;
+  padding: 50px;
+
+}
+button {
+  background-color: #0e9972;
+
+}
+button:hover {
+  background-color: skyblue;
+}
+p {
+  text-decoration-style:dotted;
+color: #ffae00;
+}
+@media (min-width: 1500px) {
+  body {
+    background-color: #a4d9db;
+  }
+}
+@media (max-width: 1499px) {
+  body {
+    background-color: #8dbfc2;
+  }
+}
+div {
+  padding: 50px;
+}
+img {
+}
+p {
+  text-align: center; text-decoration-style: wavy;
+}
+form {
+  align:"right";
+}
