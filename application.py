@@ -11,6 +11,6 @@ def index():
 
 @app.route("/<string:name>")
 def hello(name):
-    return f"<h1>Hello, {name}!</em>"
+    print(f"<h1>Hello, {name}!</em>")
     print(f"<em>I hope you are having a wonderful day, {name} </em>")
     print(f"<h2>The weather is quite nice today right, {name}</h2>")
