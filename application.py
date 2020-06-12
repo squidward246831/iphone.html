@@ -1,4 +1,4 @@
-from flask import Flask 
+from flask import Flask
 
 app = Flask(__name__)
 
@@ -9,7 +9,7 @@ def index():
 
 @app.route("//")
 def answer():
-    return(Welcome Advay)
+    return("Welcome Advay")
 
 @app.route("/<string:name>")
 def hello(name):
