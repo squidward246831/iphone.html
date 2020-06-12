@@ -5,4 +5,13 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return render_template("index.html")
+    return("hello world")
+
+@app.route("//")
+def answer():
+    return(Welcome Advay)
+
+@app.route("/<string:name>")
+def hello(name):
+    return f"hello, {name}""
+            
