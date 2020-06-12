@@ -9,7 +9,8 @@ def index():
 
 @app.route("/advay")
 def answer():
-    return("hello ADVAY")    
+    return("hello ADVAY")
+    print("welcome to the secret site")   
 
 @app.route("/<string:name>")
 def hello(name):
