@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask 
 
 app = Flask(__name__)
 
@@ -14,4 +14,3 @@ def answer():
 @app.route("/<string:name>")
 def hello(name):
     return f"hello, {name}""
-            
